@@ -2,7 +2,7 @@ var recipes = {};
 
 function updateObjectWithKeyAndValue(obj , key , value)
 {
-  var nr = new Object();
+  var nr = new recipes();
   nr[key] = value;
   return nr;
   //return new recipes({ [key] : [value]});
